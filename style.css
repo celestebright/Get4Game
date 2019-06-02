@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    background-image: url(bac.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.instructions {
+    font-family: 'Indie Flower', cursive;
+    color: #ffffff;
+    font-size: 17px;
+    height: 300px;
+    width: 100px;
+    margin: 20px;
+    transform: translateX(157px) translateY(25px);
+    text-align: center;
+}
+h1 {
+    color: #fba0fb;
+    transform: translateX(755px) translateY(145px);
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+}
+.number {
+    transform: translateX(935px) translateY(70px);
+    font-size: 32px;
+    color: #000000;
+    height: 70px;
+    width: 70px;
+}
+.idea {
+    transform: translateX(510px) translateY(-125px);
+    color: #ffffff;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+.scoreboard {
+    color: #ffffff;
+    font-size: 24px;
+    border: #ffffff dotted 2px;
+    width: 150px;
+    height: 120px;
+    transform: translateX(550px) translateY(-200px);
+    padding-left: 10px;
+    padding-bottom: 10px; 
+}
+/* This is for the stars */
+.firstStar, .secondStar, .thirdStar, .fourthStar {
+    background: transparent;
+    border: none !important;
+    cursor: pointer;
+}
+.firstStar {
+    transform: translateX(590px) translateY(-185px);
+    height: 50px;
+    width: 50px;
+}
+.secondStar {
+    transform: translateX(910px) translateY(-240px);
+    height: 50px;
+    width: 50px; 
+}
+.thirdStar {
+    transform: translateX(1185px) translateY(160px);
+    height: 50px;
+    width: 50px;
+}
+.fourthStar {
+    transform: translateX(1240px) translateY(-210px);
+    height: 50px;
+    width: 50px;
+}
